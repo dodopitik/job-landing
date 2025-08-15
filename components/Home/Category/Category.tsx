@@ -11,7 +11,6 @@ import CategoryCard from "./CategoryCard"
 
 const Category = () => {
 
-
     const categoryData = [
         {
             id:1,
