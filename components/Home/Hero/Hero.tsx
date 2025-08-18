@@ -5,7 +5,7 @@ const Hero = () => {
   return  <div className="relative w-full h-screen flex justify-center flex-col ">
     <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
             {/* text-content */}
-        <div className="order-2 xl:order-1">
+        <div className="order-2 xl:order-1" data-aos="fade-right" >
             {/* heading */}
         <h1 className="text-3xl sm:text-6xl font-bold"> Join us & Explore <br />Thousands of Jobs </h1>
         {/* subheading */}
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
        </div>
         {/* img content */}
-        <div className="order-1 xl:order-2 mx-auto ">
+        <div className="order-1 xl:order-2 mx-auto " data-aos="fade-left" data-aos-delay="2000">
           <Image src="/images/hero.png" alt="hero" width={1200} height={900}/>
         </div>
     </div>

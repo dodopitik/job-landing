@@ -90,10 +90,10 @@ const Job = () => {
     <div className='pt-16 pb-16'>
      <SectionHeading heading="Featured Jobs" subheading='Know your worth and find the job that qualify your life'/>
        <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-            {jobsData.map((listjob) =>
+            {jobsData.map((listjob,index) =>
             {
                 return (
-                <div key={listjob.id} >
+                <div key={listjob.id} data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay={index * 100}>
                 <JobCard listjob={listjob}/>
                 
                 </div>
