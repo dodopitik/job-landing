@@ -29,7 +29,7 @@ const Home = () => {
 
 
   return (
-    <div className="overflow-hidden h-[5050px]">
+    <div className="overflow-hidden min-h-screen pb-10">
      <Hero/>
      <Category/>
      <Job/>
